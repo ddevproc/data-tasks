@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="LinkedIn_Projects">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.163.129\MSSQLSERVER_2022,1433:sa">
+          <Created>2025-10-22T14:16:21.2184284+02:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.163.129\MSSQLSERVER_2022,1433</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>TcpIp</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="AVG_issue_check.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>AVG_issue_check.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LinkedIn_NOT_IN_EXISTS_performance_test_1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>LinkedIn_NOT_IN_EXISTS_performance_test_1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LinkedIn_NOT_IN_EXISTS_performance_test_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>LinkedIn_NOT_IN_EXISTS_performance_test_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LinkedIn_NOT_IN_EXISTS_performance_test_3_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>LinkedIn_NOT_IN_EXISTS_performance_test_3_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LinkedIn_NOT_IN_EXISTS_performance_test_4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>LinkedIn_NOT_IN_EXISTS_performance_test_4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NOT_IN_vs_NOT_EXISTS_perf_test_setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>NOT_IN_vs_NOT_EXISTS_perf_test_setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="numeric_conversion_issues.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>numeric_conversion_issues.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

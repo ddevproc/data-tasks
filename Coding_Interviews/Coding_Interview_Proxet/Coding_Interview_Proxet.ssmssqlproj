@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Coding_Interview_Proxet">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.163.129\MSSQLSERVER_2022,1433:sa">
+          <Created>2025-10-15T17:17:58.6139674+02:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.163.129\MSSQLSERVER_2022,1433</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>TcpIp</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Fibonacci_Sequence.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>D:\________JOB_2025_PREPARATION\Coding_Interviews\Fibonacci_Sequence.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fibonacci_Sequence_using_SEQUENCE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>D:\________JOB_2025_PREPARATION\Coding_Interviews\Fibonacci_Sequence_using_SEQUENCE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LinkedIn_POST_Fibonacci_Sequence.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>D:\________JOB_2025_PREPARATION\Coding_Interviews\LinkedIn_POST_Fibonacci_Sequence.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SQLQuery4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SQLQuery5.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task 1 Active Portfolios and Managers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Task 1 Active Portfolios and Managers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task 2 Count of Investments by Type.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Task 2 Count of Investments by Type.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task 3 High-Value Real Estate Properties.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Task 3 High-Value Real Estate Properties.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task 4 Total Asset Value by Region.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Task 4 Total Asset Value by Region.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task 5 Combining Watchlists.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Task 5 Combining Watchlists.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task 6 Portfolios Without Recent Activity.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Task 6 Portfolios Without Recent Activity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task 7 Year-Over-Year Performance Change.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Task 7 Year-Over-Year Performance Change.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task_2_1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Task_2_1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="template.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>template.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

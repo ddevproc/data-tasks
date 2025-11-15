@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 20.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Coding_Interview_Proxet", "..\PORTFOLIO_2025\My_GitHub_repository_2025\test-tasks\Coding_Interview_Proxet.ssmssqlproj", "{B2D25709-26D2-44C6-B7F3-46F1955B130F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Training_and_Research", "Training_and_Research\Training_and_Research.ssmssqlproj", "{8AC270E8-DB7C-4A2B-AEB6-1BC0717700F4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "LinkedIn_Projects", "LinkedIn_Projects\LinkedIn_Projects.ssmssqlproj", "{65CA32FF-8836-43BD-B06C-FD51245E8C30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2D25709-26D2-44C6-B7F3-46F1955B130F}.Default|Default.ActiveCfg = Default
+		{8AC270E8-DB7C-4A2B-AEB6-1BC0717700F4}.Default|Default.ActiveCfg = Default
+		{65CA32FF-8836-43BD-B06C-FD51245E8C30}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1FEE9DE-FF44-46D8-A339-4B585772BDA3}
+	EndGlobalSection
+EndGlobal

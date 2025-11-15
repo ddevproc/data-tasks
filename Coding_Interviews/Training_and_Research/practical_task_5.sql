@@ -1,0 +1,15 @@
+/*
+??? ?????? ???????
+SELECT X.X
+FROM
+( SELECT 5 X ) X
+INNER JOIN
+( SELECT 5 X , 6 Y ) Y ON X.X = Y.Y
+*/
+
+
+SELECT X.X
+FROM
+( SELECT 5 X ) X
+INNER JOIN
+( SELECT 5 X , 6 Y ) Y ON X.X = Y.Y

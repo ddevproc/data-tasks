@@ -1,0 +1,111 @@
+Here is the role's description I will be interviewed for:
+
+
+
+"
+
+About the role (Actual Job Posting page)
+
+
+
+We are looking for a Senior Data engineer to build and scale a Snowflake-based data platform supporting Credit Asset Management and Wealth Solutions. The role involves ingesting data from SaaS investment platforms via data shares and custom ETL, establishing a medallion architecture, modeling data into appropriate data marts for exposing it to analytical consumptions. 
+
+
+
+‍
+
+
+
+About the project
+
+
+
+Our client is a global real estate services company specializing in the management and development of commercial properties. Over the past several years, the organization has made significant strides in systematizing and standardizing its reporting infrastructure and capabilities. Due to the increased demand for reporting, the organization is seeking a dedicated team to expand capacity and free up existing resources.
+
+
+
+Who are we looking for?
+
+Skills & Experience
+
+
+
+
+
+Bachelor's degree in Computer Science, Engineering, or related field;
+
+
+
+5+ years of experience in data engineering roles;
+
+Strong knowledge in SQL,data modeling, database management system and optimization;
+
+Strong experience in Snowflake,  proven experience building scalable data pipelines into Snowflake,  data shares and custom connectors.
+
+Hands-on ETL/ELT experience; Workato experience strongly preferred.
+
+Solid Python and/or dbt experience for transformations and testing.
+
+Proficiency with AWS platforms for scalable solutions, Azure is a plus;
+
+Understanding of data governance, data modeling & analysis and data quality concepts and requirements;
+
+Experience in implementing medallion architecture and data quality frameworks.
+
+Understanding of data lifecycle, DataOps concepts, and basic design patterns;
+
+Experience setting up IAM, access controls, catalog/lineage, and CI/CD for data.
+
+Excellent communication and ability to work with business stakeholders to shape requirements.
+
+
+
+Nice to Have
+
+
+
+Domain exposure to credit/investments and insurance data
+
+Familiarity with schemas and data models from:BlackRock Aladdin, Clearwater, WSO, SSNC PLM
+
+Experience with Databricks, Airflow, or similar orchestration tools
+
+Prior vendor/staff augmentation experience in fast-moving environments
+
+‍
+
+
+
+Responsibilities
+
+
+
+Build and maintain scalable data pipelines into Snowflake using Workato and native Snowflake capabilities 
+
+Integrate heterogeneous vendor data via data shares and custom ETL
+
+Implement and enforce medallion architecture (bronze/silver/gold) and data quality checks.
+
+Collaborate with tech lead and business partners to define logical data marts for analytics and reporting.
+
+Contribute to non-functional setup: IAM/role-based access, data cataloging, lineage, access provisioning, monitoring, and cost optimization.
+
+Document data models, schemas, pipelines, and operational runbooks.
+
+Operate effectively in a less-structured environment; proactively clarify priorities and drive outcomes.
+
+Collaborate closely with the team members and other stakeholders;
+
+Provide technical support and mentoring to junior data engineers;
+
+Participate in data governance and compliance efforts;
+
+Document data pipelines, processes, and best practices;
+
+Evaluate and recommend new data technologies.
+
+". 
+
+
+
+Tomorrow will be a coding interview using SQL during one hour. Give me a set of the most useful examples of tasks that can help me to get ready for that interview.
