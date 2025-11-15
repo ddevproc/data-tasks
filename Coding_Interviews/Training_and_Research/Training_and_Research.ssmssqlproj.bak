@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Training_and_Research">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.163.129\MSSQLSERVER_2022,1433:sa">
+          <Created>2025-10-15T17:19:08.5928937+02:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.163.129\MSSQLSERVER_2022,1433</Server>
+          <UserName>sa</UserName>
+         <Password21>QwErTy123456789!</Password21> 
+		  <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>TcpIp</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="cross_apply_derived_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>cross_apply_derived_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="cross_apply_table_valued_function.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>cross_apply_table_valued_function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="datetime2_to_datetime_conversion_research.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>datetime2_to_datetime_conversion_research.sql</FullPath>
+        </FileNode>
+        <FileNode Name="How correctly convert datetime2 to datetime.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>How correctly convert datetime2 to datetime.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inner_join_derived_table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>inner_join_derived_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inner_join_table_valued_function_WITH_ERROR.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>inner_join_table_valued_function_WITH_ERROR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="running_total_moving_average.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>running_total_moving_average.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

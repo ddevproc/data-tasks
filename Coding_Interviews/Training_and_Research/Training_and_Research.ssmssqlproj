@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Training_and_Research">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.163.129\MSSQLSERVER_2022,1433:sa">
+          <Created>2025-10-15T17:19:08.5928937+02:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.163.129\MSSQLSERVER_2022,1433</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>TcpIp</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="cross_apply_derived_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>cross_apply_derived_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="cross_apply_table_valued_function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>cross_apply_table_valued_function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="datetime2_to_datetime_conversion_research.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>datetime2_to_datetime_conversion_research.sql</FullPath>
+        </FileNode>
+        <FileNode Name="delete_duplicates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>delete_duplicates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="drop_index.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>drop_index.sql</FullPath>
+        </FileNode>
+        <FileNode Name="except_intersect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>except_intersect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="find_second_max_salary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>find_second_max_salary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="How correctly convert datetime2 to datetime.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>How correctly convert datetime2 to datetime.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IN_NOT_IN_issue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>IN_NOT_IN_issue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inner_join_correlated_subquery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>inner_join_correlated_subquery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inner_join_derived_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>inner_join_derived_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="inner_join_table_valued_function_WITH_ERROR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>inner_join_table_valued_function_WITH_ERROR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="intervals_overlap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>intervals_overlap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="join_hints.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>join_hints.sql</FullPath>
+        </FileNode>
+        <FileNode Name="JOIN_with_OR_ISSUE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>D:\________JOB_2025_PREPARATION\Coding_Interviews\JOIN_with_OR_ISSUE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="JOIN_with_OR_ISSUE_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>D:\________JOB_2025_PREPARATION\Coding_Interviews\JOIN_with_OR_ISSUE_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LinkedIn_NOT_IN_EXISTS_performance_test_3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>LinkedIn_NOT_IN_EXISTS_performance_test_3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LinkedIn_NOT_IN_EXISTS_performance_test_3_1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>LinkedIn_NOT_IN_EXISTS_performance_test_3_1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="merge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>merge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="money_data_type_problem.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>money_data_type_problem.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pivot_unpivot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>pivot_unpivot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="practical_task_1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>practical_task_1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="practical_task_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>practical_task_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="practical_task_3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>practical_task_3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="practical_task_4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>practical_task_4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="practical_task_5.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>practical_task_5.sql</FullPath>
+        </FileNode>
+        <FileNode Name="practical_task_6.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>practical_task_6.sql</FullPath>
+        </FileNode>
+        <FileNode Name="practical_task_7.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>practical_task_7.sql</FullPath>
+        </FileNode>
+        <FileNode Name="running_total_moving_average.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>running_total_moving_average.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trace_flags_testing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>trace_flags_testing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WINDOW_clause_usage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.163.129\MSSQLSERVER_2022,1433:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.163.129\MSSQLSERVER_2022,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>D:\________JOB_2025_PREPARATION\Coding_Interviews\WINDOW_clause_usage.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
